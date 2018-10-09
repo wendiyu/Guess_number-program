@@ -1,0 +1,25 @@
+#
+#Created by: Wendi Yu
+#Created on: Oct-09-2018
+#
+# Guess the number of sales
+
+MAX_NUMBER_OF_SALE = 25
+
+question_text = input(" Enter how many cookies we had sale on today ")
+
+Guess_number = int (input(" Enter a whole numbe, my guess is: "))
+
+if (Guess_number == MAX_NUMBER_OF_SALE) :
+  
+	print( " You got it! " )
+
+elif (Guess_number < MAX_NUMBER_OF_SALE ):
+  
+	print ( " more sales " )
+
+else :
+  
+	print ( " Too many sales" )
+
+input()
